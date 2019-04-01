@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>simple-reactive</title>
+  <script type="module">
+    import MainComponent from './components/main-component.js'
+
+    const component = new MainComponent()
+
+    component.bind('#main')
+  </script>
+  <style>
+    .red {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+<div id="main"></div>
+</body>
+</html>
